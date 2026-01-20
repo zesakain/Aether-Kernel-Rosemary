@@ -181,7 +181,7 @@ void tcp_init_congestion_control(struct sock *sk)
 
         /* 1. Force find the BBR operations */
         rcu_read_lock();
-        ca = tcp_ca_find("bbrplus");
+        ca = tcp_ca_find("bbr2");
         
         /* 2. If BBR is available, override the current assignment */
         if (ca) {
