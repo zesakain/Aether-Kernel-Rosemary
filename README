@@ -5,6 +5,8 @@ Linux kernel
 # Kernel 4.14
 # Xiaomi rosemary
 
+⚠️ Warning: This is a custom kernel for learning purposes. Use at your own risk.
+
 Definition: Implementing BBRv2 on the 4.14 kernel
 
 Disclaimer
@@ -13,8 +15,7 @@ Disclaimer
 * I am not responsible for any issues users may encounter, such as bootloops or other malfunctions
 * The purpose of this project is purely for experiment and exploration
 
-
-⚠️ Warning: This is a custom kernel for learning purposes. Use at your own risk.
+"Tested on non-rooted device. Confirmed kernel module registration via sysctl. Full access to socket statistics (ss -tin) is limited on non-rooted configurations."
 
 ## Credits
 - LineageOS project (kernel base)
