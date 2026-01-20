@@ -1,18 +1,22 @@
 Linux kernel
 ============
 
-This file was moved to Documentation/admin-guide/README.rst
+# Aether-vEleatic-Rosemary
+# Kernel 4.14
+# Xiaomi rosemary
 
-Please notice that there are several guides for kernel developers and users.
-These guides can be rendered in a number of formats, like HTML and PDF.
+Definition: Implementing BBRv2 on the 4.14 kernel
 
-In order to build the documentation, use ``make htmldocs`` or
-``make pdfdocs``.
+Disclaimer
+* This kernel is based on the Rosemary LineageOS 23 kernel
+* The BBRv2 used in this kernel is a congestion control algorithm developed by Google
+* I am not responsible for any issues users may encounter, such as bootloops or other malfunctions
+* The purpose of this project is purely for experiment and exploration
 
-There are various text files in the Documentation/ subdirectory,
-several of them using the Restructured Text markup notation.
-See Documentation/00-INDEX for a list of what is contained in each file.
 
-Please read the Documentation/process/changes.rst file, as it contains the
-requirements for building and running the kernel, and information about
-the problems which may result by upgrading your kernel.
+⚠️ Warning: This is a custom kernel for learning purposes. Use at your own risk.
+
+## Credits
+- LineageOS project (kernel base)
+- Google (BBRv2 algorithm)
+- cx9208/bbrplus
