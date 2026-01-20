@@ -266,6 +266,7 @@ struct tcp_sock {
 	u8	keepalive_probes; /* num of allowed keep alive probes	*/
 	u32	reordering;	/* Packet reordering metric.		*/
 	u32	snd_up;		/* Urgent pointer		*/
+    u32	reord_seen;	/* number of data packet reordering events */
 
 /*
  *      Options received (usually on last packet, some only on SYN packets).
